@@ -1,0 +1,205 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathdesign}
+\usepackage{upquote}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage[helvet]{sfmath}
+\usepackage[scaled=1]{helvet}
+\usepackage[version=4]{mhchem}
+\usepackage[retainplus]{siunitx}
+\usepackage{rsc}
+\usepackage[sort&compress,numbers,super]{natbib}
+\usepackage{float}
+\usepackage{gensymb}
+\usepackage{textgreek}
+\usepackage{alphabeta}
+\usepackage{wallpaper}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+% set sensible package defaults
+\bibliographystyle{rsc}
+\sisetup{range-phrase=--,range-units=single,separate-uncertainty, multi-part-units=single}
+\hypersetup{colorlinks,citecolor=black,filecolor=black,linkcolor=black,urlcolor=black}
+ % use helvetica
+\renewcommand{\familydefault}{\sfdefault}
+\everymath={\sf}
+% 1.3 line stretch ~ 1.5 line spacing as required
+\renewcommand{\baselinestretch}{1.3} 
+\graphicspath{{./images/}}
+
+
+\begin{document}
+\title{Title}
+\author{%
+    Student ID: xxxxx\\\\
+    xxxxx\\\\
+    xxxxx\\
+    xxxxx \\
+    xxxxx\\
+    xxxxx\\\\}
+\maketitle
+\thispagestyle{empty}
+\pagebreak
+
+\thispagestyle{empty}
+\section*{Abstract}
+xxxxx
+\pagebreak
+
+\thispagestyle{empty}
+\section*{Acknowledgements}
+I would firstly like to express my sincere thanks to my supervisor Prof. xxxxx.\\
+\\ 
+I also wish to thank xxxxx. \\
+\\
+Finally, I would also like to thank xxxxx.                    
+\pagebreak
+\thispagestyle{empty}
+\section*{List of Abbreviations}
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\textbf{xxx} – xxxxx\\\\
+\thispagestyle{empty}
+\tableofcontents
+\addtocontents{toc}{\protect\thispagestyle{empty}} 
+\thispagestyle{empty} 
+\pagebreak
+
+\pagenumbering{arabic} 
+\section{Introduction}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua\cite{aaaaa}. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\cite{bbbbb}. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur\cite{ccccc,ddddd}. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsection{xxxxx}
+xxxxx 
+\subsection{xxxxx}
+xxxxx
+\subsection{xxxxx}
+xxxxx
+\subsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsection{xxxxx}
+xxxxx 
+\section{Computational Theory}
+xxxxx
+\subsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx  
+\subsubsection{xxxxx}
+xxxxx 
+\subsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx  
+\subsection{xxxxx}
+xxxxx  
+\section{Methodology}
+xxxxx
+\subsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx 
+\subsubsection{xxxxx}
+xxxxx
+\subsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsection{xxxxx}
+xxxxx 
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\section{Results and Discussion}
+xxxxx
+\subsection{xxxxx}
+xxxxx
+\subsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx} 
+xxxxx
+\subsubsection{xxxxx}
+xxxxx
+\subsubsection{xxxxx}
+xxxxx  
+\subsection{Discussion}
+xxxxx
+\section{Conclusion and Future Research}
+xxxxx             
+\pagebreak
+\section{Appendix}
+\subsection{Appendix A: xxxxx}
+\pagebreak
+\subsection{Appendix B: xxxxx}
+\pagebreak
+\subsection{Appendix C: xxxxx}
+\pagebreak
+\bibliography{CompChemBib}
+
+
+%Chemical formulas are generated using the \texttt{mhchem} package, for example:
+%\ce{CH3NH3PbI3} and \ce{CH(NH2)2PbI3}. 
+%Units are generated using the \texttt{siunitx} package, 
+%e.g. \SI{0.2}{\electronvolt} and \SI{1E10}{\second\per\cubic\centi\meter} 
+%(\SIrange{0.2}{0.4}{\meter\per\second\squared}).
+%More information on typesetting equations and figures can be found here:
+%\url{https://sites.google.com/site/latexiseasy/math-tables-figures}.
+%Information on how to include references is available here:
+%\url{http://unimelb.libguides.com/referencemanaginginlatex}
+%Use the LaTeX table generator website to easily generate tables:
+%\url{https://www.tablesgenerator.com/}.
+%Can use overleaf with LaTeX directly, but use Sublime Text for security.
+
+
+\end{document}
