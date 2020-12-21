@@ -12,7 +12,7 @@ This project includes:
 - The accompanying .bib file (where you carefully list references)
 - Generated .pdf document based on the two files above
 
-For best results, please ensure your Sublime Text system check matches the screenshot as closely as possible.
+For best results, please ensure your Sublime Text 'system check' matches the screenshot as closely as possible.
 
 Note, references are in RSC style https://edu.rsc.org/resources/how-to-reference-using-the-rsc-style/1664.article
 
