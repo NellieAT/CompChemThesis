@@ -3,7 +3,7 @@ Clean yet hyper-flexible MSc thesis template (developed in LaTeX via Sublime Tex
 
 Intended for computational chemists 🖥️⚗️ and materials scientists 📚🥼
 
-Q) Do you want to avoid wasting precious time faffing around with LaTeX formatting? Are you completely new to LaTeX? 
+Q) Do you want to avoid wasting time faffing around with LaTeX formatting? Are you completely new to LaTeX? 
 
 A) This template should help! Popular required maths and science packages have been enabled in the template.
 
