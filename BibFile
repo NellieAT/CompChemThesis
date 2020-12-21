@@ -1,0 +1,28 @@
+
+@misc{aaaaa,
+    author = {xxxxx},
+    title = {xxxxx},
+    howpublished = "\url{xxxxx}",
+    note = "[Accessed xxxxx]"
+}
+@article{bbbbb,
+    author =       "xxxxx and xxxxx and xxxxx",
+    journal =      "xxxxx",
+    year =         "xxxxx",
+    volume =       "xxxxx",
+    pages =        "xxxxx",
+}
+@article{ccccc,
+    author =       "xxxxx and xxxxx and xxxxx",
+    journal =      "xxxxx",
+    year =         "xxxxx",
+    volume =       "xxxxx",
+    pages =        "xxxxx",
+}
+@article{ddddd,
+    author =       "xxxxx and xxxxx and xxxxx",
+    journal =      "xxxxx",
+    year =         "xxxxx",
+    volume =       "xxxxx",
+    pages =        "xxxxx",
+}
